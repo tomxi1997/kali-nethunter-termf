@@ -22,7 +22,7 @@ jobs:
       working-directory: ./project
       run: |
         chmod +x gradlew
-        ./gradlew --warning-mode all :app:assembleDebug
+        ./gradlew build --stacktrace
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with: 
