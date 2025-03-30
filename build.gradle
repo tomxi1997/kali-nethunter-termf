@@ -29,7 +29,7 @@ buildscript {
   ]
 
   repositories {
-    maven { url 'https://dl.google.com/dl/android/maven2/' }
+    maven()
     jcenter()
     google()
   }
